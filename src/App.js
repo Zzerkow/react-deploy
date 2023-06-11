@@ -14,11 +14,11 @@ export default function App() {
 
     <div className='Main-Container'>
 
-      <Routes basename="/react-deploy">        
-        <Route index element={<Home />}/>
-        <Route path="Actions" element={<Actions />}/>
-      </Routes>
-      
+         <Routes>        
+          <Route path="/" element={<Home />}/>
+          <Route path="Actions" element={<Actions />}/>
+        </Routes>
+
     </div>   
   </>
   ); 
