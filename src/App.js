@@ -15,7 +15,7 @@ export default function App() {
     <div className='Main-Container'>
 
          <Routes>        
-          <Route path="/" element={<Home />}/>
+          <Route path="react-deploy" element={<Home />}/>
           <Route path="Actions" element={<Actions />}/>
         </Routes>
 
