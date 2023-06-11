@@ -38,7 +38,7 @@ function Footer(){
     
             <div className='footer-up-social-network'> 
              
-              <a href="https://www.instagram.com/ekollectif/" className='footer-up-social-network-instagram'/>
+            <a href="https://www.instagram.com/ekollectif/" className='footer-up-social-network-instagram'/>
               <a href="https://www.facebook.com/E.kollectif/" className='footer-up-social-network-facebook'/>
               <a href="https://fr.linkedin.com/in/association-e-kollectif-016284217" className='footer-up-social-network-linkedin'/>
               <a href="https://wa.me/0677434628" className='footer-up-social-network-whatsapp'/>
