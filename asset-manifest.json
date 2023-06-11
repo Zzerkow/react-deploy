@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-deploy/static/css/main.4ee679d5.css",
-    "main.js": "/react-deploy/static/js/main.6d999982.js",
+    "main.js": "/react-deploy/static/js/main.0dbbf198.js",
     "static/js/787.c60b2d0f.chunk.js": "/react-deploy/static/js/787.c60b2d0f.chunk.js",
     "static/media/PicMain4.png": "/react-deploy/static/media/PicMain4.bf7ec2be4d7e30e60c18.png",
     "static/media/PicMain1.png": "/react-deploy/static/media/PicMain1.8c7169b042f883312768.png",
@@ -32,11 +32,11 @@
     "static/media/logo-vidjovi.png": "/react-deploy/static/media/logo-vidjovi.8ab4ba08e51e9eaee489.png",
     "index.html": "/react-deploy/index.html",
     "main.4ee679d5.css.map": "/react-deploy/static/css/main.4ee679d5.css.map",
-    "main.6d999982.js.map": "/react-deploy/static/js/main.6d999982.js.map",
+    "main.0dbbf198.js.map": "/react-deploy/static/js/main.0dbbf198.js.map",
     "787.c60b2d0f.chunk.js.map": "/react-deploy/static/js/787.c60b2d0f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4ee679d5.css",
-    "static/js/main.6d999982.js"
+    "static/js/main.0dbbf198.js"
   ]
 }
