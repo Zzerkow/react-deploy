@@ -14,7 +14,7 @@ export default function Navbar() {
 
             <div className="Container-Onglets">   
             
-            <CustomLink to="/" className='button-page'>Nous Connaître</CustomLink>
+            <CustomLink to="/react-deploy" className='button-page'>Nous Connaître</CustomLink>
             <CustomLink to="/actions" className='button-page'>Nos Actions</CustomLink>
             <CustomLink to="/projets" className='button-page'>Nos Projets</CustomLink>
             <CustomLink to="/actualites" className='button-page'>Actualités</CustomLink>
