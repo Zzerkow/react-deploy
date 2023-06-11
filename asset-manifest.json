@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/react-deploy/static/css/main.4ee679d5.css",
+    "main.js": "/react-deploy/static/js/main.6d999982.js",
+    "static/js/787.c60b2d0f.chunk.js": "/react-deploy/static/js/787.c60b2d0f.chunk.js",
+    "static/media/PicMain4.png": "/react-deploy/static/media/PicMain4.bf7ec2be4d7e30e60c18.png",
+    "static/media/PicMain1.png": "/react-deploy/static/media/PicMain1.8c7169b042f883312768.png",
+    "static/media/PicMain3.png": "/react-deploy/static/media/PicMain3.417df0e09655de3e1486.png",
+    "static/media/actuality-exemple.png": "/react-deploy/static/media/actuality-exemple.f705b6617206e444e7b7.png",
+    "static/media/Poppins-ThinItalic.ttf": "/react-deploy/static/media/Poppins-ThinItalic.24564ea8dcd4b58262f6.ttf",
+    "static/media/Poppins-ExtraLightItalic.ttf": "/react-deploy/static/media/Poppins-ExtraLightItalic.ea4777348043054c9c1b.ttf",
+    "static/media/Poppins-LightItalic.ttf": "/react-deploy/static/media/Poppins-LightItalic.0eb48588e7c73cd4ef8a.ttf",
+    "static/media/Poppins-Italic.ttf": "/react-deploy/static/media/Poppins-Italic.2374f1ccc2fd51e10aee.ttf",
+    "static/media/Poppins-MediumItalic.ttf": "/react-deploy/static/media/Poppins-MediumItalic.592717c7f9ce7f13fd63.ttf",
+    "static/media/Poppins-SemiBoldItalic.ttf": "/react-deploy/static/media/Poppins-SemiBoldItalic.a834bc75de7050c0e061.ttf",
+    "static/media/Poppins-BoldItalic.ttf": "/react-deploy/static/media/Poppins-BoldItalic.e656da158b4eadbbe9ca.ttf",
+    "static/media/Poppins-ExtraBoldItalic.ttf": "/react-deploy/static/media/Poppins-ExtraBoldItalic.05671a1c572233b9a6b2.ttf",
+    "static/media/Poppins-BlackItalic.ttf": "/react-deploy/static/media/Poppins-BlackItalic.b9a6b48575f22d37ce51.ttf",
+    "static/media/Poppins-Thin.ttf": "/react-deploy/static/media/Poppins-Thin.c0e3721e5939730f7cf2.ttf",
+    "static/media/Poppins-ExtraLight.ttf": "/react-deploy/static/media/Poppins-ExtraLight.90da5cbbcdb0976dc884.ttf",
+    "static/media/Poppins-Light.ttf": "/react-deploy/static/media/Poppins-Light.25b96349cf564e8ba0dc.ttf",
+    "static/media/Poppins-Regular.ttf": "/react-deploy/static/media/Poppins-Regular.4211496d0e075ffe7c2f.ttf",
+    "static/media/Poppins-Medium.ttf": "/react-deploy/static/media/Poppins-Medium.c5eb70982e90502d0d01.ttf",
+    "static/media/Poppins-SemiBold.ttf": "/react-deploy/static/media/Poppins-SemiBold.090bd619384bb8d4c289.ttf",
+    "static/media/Poppins-Bold.ttf": "/react-deploy/static/media/Poppins-Bold.300a4da54f1e6258b6f7.ttf",
+    "static/media/Poppins-ExtraBold.ttf": "/react-deploy/static/media/Poppins-ExtraBold.c2cc929b28dbf8a30cfd.ttf",
+    "static/media/Poppins-Black.ttf": "/react-deploy/static/media/Poppins-Black.c78fe16aec75b2fc38d0.ttf",
+    "static/media/PicMain2.png": "/react-deploy/static/media/PicMain2.62e9797dfd4544e99330.png",
+    "static/media/logo-chrysalide.png": "/react-deploy/static/media/logo-chrysalide.cd0908ef83c3403417b5.png",
+    "static/media/heart-Icon.svg": "/react-deploy/static/media/heart-Icon.ac8c750075ecc658c6f2ea67a2b02f6f.svg",
+    "static/media/logo-ncb.png": "/react-deploy/static/media/logo-ncb.a1fde2e0d4703cddeb82.png",
+    "static/media/logo-vidjovi.png": "/react-deploy/static/media/logo-vidjovi.8ab4ba08e51e9eaee489.png",
+    "index.html": "/react-deploy/index.html",
+    "main.4ee679d5.css.map": "/react-deploy/static/css/main.4ee679d5.css.map",
+    "main.6d999982.js.map": "/react-deploy/static/js/main.6d999982.js.map",
+    "787.c60b2d0f.chunk.js.map": "/react-deploy/static/js/787.c60b2d0f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4ee679d5.css",
+    "static/js/main.6d999982.js"
+  ]
+}
