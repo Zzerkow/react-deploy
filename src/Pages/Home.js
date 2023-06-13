@@ -10,10 +10,10 @@ import logovidjovi from '../Img/logo-vidjovi.png';
 import logoncb from '../Img/logo-ncb.png';
 import logonISFES from '../Img/logo-ISFES.png';
 import logonchrysalide from '../Img/logo-chrysalide.png';
-import '../App.css';
 import '../font.css';
 import '../Fonction.js';
 import Footer from '../Component/Footer.js'
+import './Home.css'
 
 export default function Home(){
     {/* Constantes */}
@@ -30,15 +30,16 @@ export default function Home(){
     const partner4 = { photo: logonchrysalide, titre:'ONG la CHRYSALIDE Bénin', description :'Cette organisation à but non lucratif est spécialisée dans l\'accompagnement des enfants et jeunes handicapés intellectuels depuis 1998. Nous soutenons ses actions et réciproquement'};
     const partnersline1 = {partner1 : partner1, partner2 : partner2};
     const partnersline2 = {partner3 : partner3, partner4 : partner4};
-
+  
     return(
     <div>      
   
         {/* 1ère Partie de la page plus petite que les autres ducoup 990px de hauteur */}
   
+        {/* Phone Part */}
         <div className='first-Content-Container'>
   
-          <div className='left-content-text'>
+          <div className='bottom-content-text'>
   
             <p className='title-text'>Se <span className='pink-color'>battre</span> pour les <span className='pink-color'>autres</span>, plus qu'une <span className='pink-color'>vocation</span>.</p>
             <p className='text'>Nous intervenons au Bénin car il est urgent de changer le regard sur le handicap,
@@ -49,7 +50,7 @@ export default function Home(){
   
           </div>
   
-          <div className='right-content-text'>
+          <div className='top-content-text'>
          
             <div className='picture-container'>
               <PictureMainPage1 data={Picture1}/>
@@ -60,15 +61,16 @@ export default function Home(){
   
         </div>
   
+      
         <div className='second-Content-Container'>
   
-          <div className='second-left-Container'>
+          <div className='second-bottom-container'>
   
             <PictureMainPage2 data={Picture2}/>
   
           </div>
   
-          <div className='second-right-Container'>
+          <div className='second-top-container'>
   
           <div className='position-text-2'>
           <p className='title-text-2'>Qui sommes-<span className='yellow-color'>nous</span>?</p>
@@ -78,17 +80,18 @@ export default function Home(){
   
           </div>      
         </div>
+        
   
         <div className='third-content-container'>
   
-          <div className='third-left-container'>
+          <div className='third-top-container'>
   
             <TitleActuality/>
             <MainActuality data={ActualityPicture}/>
   
           </div>
   
-          <div className='third-right-container'>
+          <div className='third-bottom-container'>
   
             <OldActuality data={ActualityPicture}/>
             <div className='br'></div>
@@ -98,10 +101,10 @@ export default function Home(){
   
         </div>
   
-  
+ 
         <div className='fourth-content-container'>
-  
-          <div className='fourth-left-container'>
+
+          <div className='fourth-bottom-container'>
   
             <Titlepresentation/>
             <p className='text-2'>Nadège CHAPPE, Présidente de l’association, elle-même en situation de handicap, est éducatrice spécialisée au Centre Ressources Autisme Rhône-Alpes.</p> 
@@ -110,30 +113,33 @@ export default function Home(){
               De son retour en France elle a réfléchi à l’aide qu’elle pourrait leur apporter et a créé E’Kollectif.</p> 
   
           </div>
-  
-          <div className='fourth-right-container'>
-  
-            <div className='picture-container'>
-              <PictureMainPage3 data={Picture3}/>
-              <PictureDescWhite data={Picturedesc}/>            
-            </div>
-  
+
+          <div className='fourth-top-container'>
+          
+          <div className='picture-container margin-fourth-picture'>
+            <PictureMainPage3 data={Picture3}/>
+            <PictureDescWhite data={Picturedesc}/>            
           </div>
-  
+
         </div>
   
-        <div className='fifth-content-container'>
   
-          <div className='fifth-left-container'>
+          
   
-            <div className='left-picture-container'>
+        </div>
+   
+        <div className='fifth-content-container'>          
+
+          <div className='fifth-bottom-container'>
+  
+            <div className='picture-container'>
                 <PictureMainPage4 data={Picture4}/>
                 <PictureDescBlack data={Picturedesc}/>            
-              </div>
-  
+            </div>
+
           </div>
-  
-          <div className='fifth-right-container'>
+
+          <div className='fifth-top-container'>
   
             <TitleEquipe/>
             <p className='text-5-france-titre'>En France :</p>
@@ -145,23 +151,25 @@ export default function Home(){
   
         </div>
   
+      
         <div className='sixth-content-container'>
   
           <div className='partner-container'>
   
           <p className='title-text-6'>Nos <span className='green-color'>Partenaires</span>.</p>
           <Partner2cards1line data={partnersline1}/>
-          <Partner2cards1linebis data={partnersline2}/>    
+          <Partner2cards1linebis data={partnersline2}/>
           </div>            
   
         </div>
-  
-        <Footer/>
+      
+      <Footer/>   
      
     </div>         
 
     );
 } 
+
 
 function MoreButton(){
     return(
@@ -178,7 +186,7 @@ function MoreButton(){
     return(
      
       <img className='picture-main-1' src={data}/>
-  
+     
     );
   }
   

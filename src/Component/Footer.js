@@ -1,6 +1,10 @@
 import './Footer.css';
 import picmain2 from '../Img/PicMain2.png';
 import mail_icon from '../Img/Icon_mail.png';
+import instagram_icon from '../Img/Instagram_Icon.svg';
+import facebook_icon from '../Img/Facebook_Icon.svg';
+import linkedin_icon from '../Img/Linkedin_Icon.svg';
+import whatsapp_icon from '../Img/Whatsapp_Icon.svg';
 
 function Footer(){
     return(
@@ -38,10 +42,18 @@ function Footer(){
     
             <div className='footer-up-social-network'> 
              
-            <a href="https://www.instagram.com/ekollectif/" className='footer-up-social-network-instagram'/>
-              <a href="https://www.facebook.com/E.kollectif/" className='footer-up-social-network-facebook'/>
-              <a href="https://fr.linkedin.com/in/association-e-kollectif-016284217" className='footer-up-social-network-linkedin'/>
-              <a href="https://wa.me/0677434628" className='footer-up-social-network-whatsapp'/>
+              <a href="https://www.instagram.com/ekollectif/" className='footer-up-social-network-instagram'>
+              <img className='picture_social_network' src={instagram_icon}/>
+              </a>
+              <a href="https://www.facebook.com/E.kollectif/" className='footer-up-social-network-facebook'>
+              <img className='picture_social_network' src={facebook_icon}/>
+              </a>
+              <a href="https://fr.linkedin.com/in/association-e-kollectif-016284217" className='footer-up-social-network-linkedin'>
+              <img className='picture_social_network' src={linkedin_icon}/>
+              </a>
+              <a href="https://wa.me/+33677434628" className='footer-up-social-network-whatsapp'>
+              <img className='picture_social_network' src={whatsapp_icon}/>
+              </a>
     
             </div>
     

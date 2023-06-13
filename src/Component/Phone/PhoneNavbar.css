@@ -1,0 +1,198 @@
+a {
+    color: inherit;
+  }
+/* ---------------- Navbar and burger menu ------------------ */
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    width: 100vw;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 15px;
+    -webkit-tap-highlight-color: transparent;
+    
+}
+
+.burger-menu {
+    height: 75%;
+    width: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.burger-bar {
+    width: 3em;
+    height: 0.2em;
+    background-color: black;
+    border-radius: 0.5em;
+}
+
+.menu {
+    width: 100%;
+    height: 56vh;
+    background-color: #ECECEC;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+/* ------------- sliding menu ------------------ */
+.hidden {
+    display: none;
+}
+
+.visible {
+    display: inherit;
+}
+
+/* ----- animations--------- */
+/* clicked */
+.burger-bar.clicked:nth-child(1){
+    transform:translate(0, 1.05em) rotate(45deg);
+    transition: ease-out 0.2s;
+}
+
+.burger-bar.clicked:nth-child(2){
+    transform: scale(0.1);
+    opacity: 1;
+    transition: ease-out 0.2s;
+}
+
+.burger-bar.clicked:nth-child(3){
+    transform:translate(0, -1.05em) rotate(-45deg);
+    transition: ease-out 0.2s;
+}
+
+/* unclicked */
+.burger-bar.unclicked {
+    transform: rotate(0) translate(0);
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.2s;
+}
+
+.title-navbar{
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+  
+  }
+  
+  h1{
+  
+    font-size: 30px;
+    font-family: Poppins-Bold;
+    margin: 0;
+  
+  }
+  
+  .point-style{
+  
+    font-size: 30px;
+    font-family: Poppins-Bold;
+    margin: 0;
+    margin-left: 1%;
+    color: #AD2A7A;  
+  
+  }
+
+  .button-donation{
+    cursor: pointer;
+    border: none;
+    border-radius: 15px;
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    font-family: 'Poppins-Medium';
+    color: #fff;
+    background-color: #AD2A7A;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .icon-don{
+
+    width: 25px;
+    height: 25px;
+    margin: 0;
+  }
+
+  .title-don{
+
+    font-family: 'Poppins-Medium';
+    font-size: 20px;
+    text-decoration: none;
+
+  }   
+  
+  .Phone-Container-Onglets{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0; 
+  }
+
+  .button-page{
+  
+    cursor: pointer;
+    background-color: transparent;
+    text-decoration: none;
+    border: 0;
+    align-items: center;
+    margin-bottom: 20px;      
+    font-size: 20px;
+    font-family: 'Poppins-Medium';    
+    position: relative;
+    display: inline-block;  
+  
+  }
+
+  .button-page::after{ 
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: black;
+    transition: width 0.4s ease-in-out;
+  }
+    
+  .button-page:hover::after{
+
+    width: 100%;   
+
+  }
+
+  .active{    
+    
+    position: relative;
+    display: inline-block;
+    
+  }
+
+  .active:after{
+
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    width: 100%;
+    height: 2px;
+    background-color: black;
+
+  }
