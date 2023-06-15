@@ -146,18 +146,19 @@ nav {
     margin: 0; 
   }
 
-  .button-page{
+  .phone-button-page{
   
     cursor: pointer;
     background-color: transparent;
     text-decoration: none;
     border: 0;
-    align-items: center;
-    margin-bottom: 20px;      
+    align-items: center;  
+    margin: 0;   
     font-size: 20px;
     font-family: 'Poppins-Medium';    
     position: relative;
-    display: inline-block;  
+    display: inline-block;
+    margin-bottom: 20px;  
   
   }
 

@@ -38,11 +38,11 @@ const Navbar = () => {
             <div className={menu_class}>
 
                 <div className='Phone-Container-Onglets'>
-                <CustomLink to="/react-deploy" className='button-page'>Nous Connaître</CustomLink>
-                <CustomLink to="/actions" className='button-page'>Nos Actions</CustomLink>
-                <CustomLink to="/projets" className='button-page'>Nos Projets</CustomLink>
-                <CustomLink to="/actualites" className='button-page'>Actualités</CustomLink>
-                <CustomLink to="/engager" className='button-page'>S'engager</CustomLink>
+                <CustomLink to="/react-deploy" className='phone-button-page'>Nous Connaître</CustomLink>
+                <CustomLink to="/actions" className='phone-button-page'>Nos Actions</CustomLink>
+                <CustomLink to="/projets" className='phone-button-page'>Nos Projets</CustomLink>
+                <CustomLink to="/actualites" className='phone-button-page'>Actualités</CustomLink>
+                <CustomLink to="/engager" className='phone-button-page'>S'engager</CustomLink>
                 <DonationButton/>
                 </div>
                 

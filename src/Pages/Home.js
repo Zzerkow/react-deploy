@@ -71,13 +71,11 @@ export default function Home(){
           </div>
   
           <div className='second-top-container'>
-  
-          <div className='position-text-2'>
+            
           <p className='title-text-2'>Qui sommes-<span className='yellow-color'>nous</span>?</p>
           <p className='text-2'>E’Kollectif est une association loi 1901 à but non lucratif, d’intérêt général, créée en août 2020 pour  apporter une aide aux enfants porteurs de handicap en Afrique, et notamment au Bénin.</p>        
           <p className='text-2-bis'>Si la gestion des activités se fait depuis la France E’Kollectif dispose au Bénin, à Cotonou, d’un local géré par deux responsables salariés de l’association.</p>
-          </div>
-  
+            
           </div>      
         </div>
         
@@ -153,10 +151,11 @@ export default function Home(){
   
       
         <div className='sixth-content-container'>
+
+          <p className='title-text-6'>Nos <span className='green-color'>Partenaires</span>.</p>
   
           <div className='partner-container'>
-  
-          <p className='title-text-6'>Nos <span className='green-color'>Partenaires</span>.</p>
+            
           <Partner2cards1line data={partnersline1}/>
           <Partner2cards1linebis data={partnersline2}/>
           </div>            
