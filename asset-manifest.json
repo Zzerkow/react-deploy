@@ -1,12 +1,15 @@
 {
   "files": {
-    "main.css": "/react-deploy/static/css/main.abed0e8d.css",
-    "main.js": "/react-deploy/static/js/main.d76c0276.js",
+    "main.css": "/react-deploy/static/css/main.5cc2bb0e.css",
+    "main.js": "/react-deploy/static/js/main.2d453580.js",
     "static/js/787.c60b2d0f.chunk.js": "/react-deploy/static/js/787.c60b2d0f.chunk.js",
     "static/media/PicMain4.png": "/react-deploy/static/media/PicMain4.bf7ec2be4d7e30e60c18.png",
     "static/media/PicMain1.png": "/react-deploy/static/media/PicMain1.8c7169b042f883312768.png",
+    "static/media/Action_Pic2.png": "/react-deploy/static/media/Action_Pic2.55084410f4b3faf70bb0.png",
     "static/media/Action_Pic1.png": "/react-deploy/static/media/Action_Pic1.64e2cae8d9fc1b9fd72d.png",
     "static/media/PicMain3.png": "/react-deploy/static/media/PicMain3.417df0e09655de3e1486.png",
+    "static/media/Action_Pic4.png": "/react-deploy/static/media/Action_Pic4.bb977f3540bbae2c504e.png",
+    "static/media/Action_Pic3.png": "/react-deploy/static/media/Action_Pic3.546b6fdd75dea290f992.png",
     "static/media/actuality-exemple.png": "/react-deploy/static/media/actuality-exemple.f705b6617206e444e7b7.png",
     "static/media/Poppins-ThinItalic.ttf": "/react-deploy/static/media/Poppins-ThinItalic.24564ea8dcd4b58262f6.ttf",
     "static/media/Poppins-ExtraLightItalic.ttf": "/react-deploy/static/media/Poppins-ExtraLightItalic.ea4777348043054c9c1b.ttf",
@@ -36,12 +39,13 @@
     "static/media/logo-vidjovi.png": "/react-deploy/static/media/logo-vidjovi.8ab4ba08e51e9eaee489.png",
     "static/media/Facebook_Icon.svg": "/react-deploy/static/media/Facebook_Icon.2c05d051f7456e1311466da211989dba.svg",
     "index.html": "/react-deploy/index.html",
-    "main.abed0e8d.css.map": "/react-deploy/static/css/main.abed0e8d.css.map",
-    "main.d76c0276.js.map": "/react-deploy/static/js/main.d76c0276.js.map",
+    "static/media/arrowmore.svg": "/react-deploy/static/media/arrowmore.dd5bc41f0d29637308cf069a2ece580f.svg",
+    "main.5cc2bb0e.css.map": "/react-deploy/static/css/main.5cc2bb0e.css.map",
+    "main.2d453580.js.map": "/react-deploy/static/js/main.2d453580.js.map",
     "787.c60b2d0f.chunk.js.map": "/react-deploy/static/js/787.c60b2d0f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.abed0e8d.css",
-    "static/js/main.d76c0276.js"
+    "static/css/main.5cc2bb0e.css",
+    "static/js/main.2d453580.js"
   ]
 }
