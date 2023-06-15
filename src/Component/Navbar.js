@@ -2,7 +2,6 @@ import './Navbar.css';
 import heartIcon from '../Img/heart-Icon.svg';
 import { Link, useMatch, useResolvedPath } from "react-router-dom"
 
-
 export default function Navbar() {
   return (
 
